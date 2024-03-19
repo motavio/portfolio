@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2, p, a{
+    color: #fff;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+body{
+    height: 3000px;
+    background: rgb(83,86,255);
+    background-image: linear-gradient(to top, #5356FF, #67C6E3);
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header{
+    padding-top: 1%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-size: 3vh;
+}
+
+header p:hover{
+    cursor: pointer;
+    color: #165a72;
+    transition: 0.5s;
+}
+
+main h1, main h2{
+    font-weight: 300;
+}
+
+main{
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h1{
+    font-size: 7vh;
+}
+
+main h2{
+    margin-top: -40px;
+    font-size: 6vh;
+}
+
+.cloud{
+    margin-top: 5%;
+    width: 1920px;
+    height: 500px;
+}
+
+.darkSide{
+    display: flex;
+    flex-direction: row;
+}
+
+.darkCloud{
+    background-color: #E2E2E1;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+
+.darkCloud:first-child{
+    margin-left: 100px;
+    transform: scale(120%);
+}
+
+.darkCloud:nth-child(2){
+    margin-left: -100px;
+}
+
+.darkCloud:nth-child(3){
+    margin-left: -100px;
+    transform: scale(105%);
+}
+
+.darkCloud:nth-child(4){
+    margin-left: -30px;
+    transform: scale(120%);
+}
+
+.whiteSide{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -450px;
+}
+
+.whiteCloud{
+    background-color: #fff;
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+} 
+
+.whiteCloud:nth-child(2){
+    margin-left: -100px;
+    transform: scale(115%);
+}
+
+.whiteCloud:nth-child(3){
+    margin-left: -100px;
+    transform: scale(95%)
+}
+
+.whiteCloud:nth-child(4){
+    margin-left: -100px;
+    transform: scale(110%);
+}
+
+.whiteCloud:nth-child(5){
+    margin-left: -100px;
+}
+
+.whiteCloud:nth-child(6){
+    margin-left: -100px;
+    transform: scale(115%)
+}
+
